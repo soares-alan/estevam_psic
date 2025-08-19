@@ -1,0 +1,264 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "areas": "Methodology",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Estevam Holpert",
+    "subtitle": "Clinical Psychologist - CRP 06/65.368",
+    "de  "cookies": {
+    "title": "Cookie Usage",
+    "message": "This website uses cookies to improve your browsing experience. Cookies help us personalize content and ads, provide social media features, and analyze our traffic. By continuing to browse, you agree to the use of cookies.",
+    "accept": "Accept",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions"
+  }on": "Specialized care to promote emotional well-being and quality of life",
+    "cta": "Schedule Your Appointment"
+  },
+  "about": {
+    "greeting": {
+      "prefix": "Hello,",
+      "name": "Estevam Colacicco Holpert"
+    },
+    "title": "About Me",
+    "subtitle": "Clinical Psychologist - CRP 06/65.368",
+    "intro": "As a clinical psychologist, I am dedicated to providing a safe and welcoming space for you to explore your issues and find paths to a more balanced and satisfying life.",
+    "profession": "Clinical Psychologist",
+    "credentials": "CRP 06/65.368",
+  "description": "I graduated in Psychology in 2002 from the Pontifical Catholic University of São Paulo, earned a master's degree in Clinical Psychology in 2007 from the Institute of Psychology at the University of São Paulo, and have been working as a judicial psychologist at the São Paulo State Court of Justice since 2015, with training in Lacanian psychoanalysis.",
+    "book": {
+      "title": "Mind, Body and Balance",
+      "author": "Estevam Holpert"
+    },
+    "cta": "Schedule a session",
+    "approach": {
+      "title": "My Approach",
+      "description": "I primarily work with the Cognitive-Behavioral Therapy (CBT) approach, but I adapt my methods according to the individual needs of each client. I believe that therapy should be a collaborative process where you feel respected and understood."
+    },
+    "mission": {
+      "title": "My Mission",
+      "description": "My goal is to help you develop greater self-knowledge, strengthen your ability to face challenges, and build healthier and more meaningful relationships."
+    },
+    "education": {
+      "title": "Academic Background",
+      "items": [
+        "Psychology Degree - University of São Paulo (USP)",
+        "Specialization in Cognitive-Behavioral Therapy - Institute of Cognitive Psychology",
+        "Master's in Clinical Psychology - University of São Paulo (USP)"
+      ]
+    }
+  },
+  "services": {
+    "title": "Services",
+    "description": "Welcoming, qualified listening and psychological support for every stage of your life.",
+    "modalitiesTitle": "Service Modalities",
+    "modalitiesSubtitle": "Choose the modality that best suits your needs",
+    "types": {
+      "individual": {
+        "title": "Individual Therapy",
+        "description": "Personalized sessions focused on each person's specific needs.",
+        "tag1": "Personalized",
+        "tag2": "Confidential",
+        "tag3": "Dedicated"
+      },
+      "online": {
+        "title": "Online Sessions",
+        "description": "Psychotherapy sessions conducted remotely via video call, offering flexibility and comfort, without losing quality and the therapeutic bond."
+      },
+      "inPerson": {
+        "title": "In-Person Sessions",
+        "description": "Traditional consultations conducted in the office, providing a safe and welcoming physical space for the therapeutic process."
+      },
+      "hybrid": {
+        "title": "Hybrid Approach",
+        "description": "Model that combines in-person and online sessions, adapting to your needs and availability at each moment."
+      }
+    },
+  "contactButton": "Contact us",
+    "chat": {
+      "headerTitle": "Online Psychology",
+      "headerSubtitle": "Confidential and safe care",
+      "doctorName": "Dr. Estevam",
+      "doctorMessage": "Hello! Your online psychology session is about to begin. Prepare for your consultation in the comfort of your own space, enjoying the convenience and confidentiality of online therapy.",
+      "patientName": "Patient",
+      "patientMessage": "Thank you for the message! Having the session in the comfort of my home makes all the difference for me. I'm ready to begin."
+    }
+  },
+  "areas": {
+  "title": "Psychoanalytic Methodology",
+    "subtitle": "Personalized approaches for different needs",
+    "description": "The psychoanalytic approach offers a space to explore the hidden meanings behind thoughts, behaviors, and dreams, providing a path to deep self-knowledge.",
+    "quote": "The ego is not master in its own house",
+    "author": "Sigmund Freud",
+    "scheduleButton": "Schedule a session",
+    "principles": {
+      "listening": {
+        "title": "Analytical Listening",
+        "description": "Attentive and judgment-free listening, focused not only on what is said but also on what remains unspoken."
+      },
+      "unconscious": {
+        "title": "Unconscious",
+        "description": "Exploration of contents beyond immediate consciousness that significantly influence our behaviors."
+      },
+      "transferencia": {
+        "title": "Transference",
+        "description": "The therapeutic process as a space to relive and reframe relationships and feelings from the past."
+      },
+      "singularity": {
+        "title": "Singularity",
+        "description": "Recognition of each individual's unique history and adaptation of the therapeutic process to this singularity."
+      }
+    },
+    "list": {
+      "anxiety": {
+        "title": "Anxiety",
+        "description": "Treatment for different anxiety disorders, helping to identify triggers, develop coping strategies, and recover emotional balance."
+      },
+      "depression": {
+        "title": "Depression",
+        "description": "Comprehensive approach to treat depressive symptoms, rebuild mood, and regain interest and pleasure in daily activities."
+      },
+      "relationships": {
+        "title": "Relationships",
+        "description": "Support for interpersonal issues, communication, and conflicts in romantic, family, and professional relationships."
+      },
+      "selfEsteem": {
+        "title": "Self-Esteem",
+        "description": "Work focused on developing a positive and realistic self-view, strengthening confidence and self-knowledge."
+      },
+      "phobias": {
+        "title": "Phobias",
+        "description": "Specialized treatment for different types of phobias through gradual exposure techniques and cognitive restructuring."
+      },
+      "stress": {
+        "title": "Stress",
+        "description": "Strategies to manage everyday, professional, or academic stress, promoting greater balance and quality of life."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "I'm available to answer your questions and schedule your first appointment",
+    "quote": "Taking the first step is always the most important in the journey of self-knowledge.",
+    "whatsapp": "WhatsApp",
+    "whatsappDesc": "Quick message for scheduling",
+    "phone": "Phone",
+    "phoneDesc": "Available Mon-Fri, 8am-8pm",
+    "email": "Email",
+    "emailDesc": "Response within 24 business hours",
+    "finalMessage": "I am available to answer any questions and provide assistance as needed to begin your therapeutic process.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "schedule": {
+        "title": "Office Hours",
+        "hours": "Monday to Friday: 8am to 8pm"
+      },
+      "location": {
+        "title": "Location",
+        "address": "123 Example St., São Paulo - SP"
+      },
+      "contact": {
+        "title": "Contact",
+        "phone": "+55 11 98765-4321",
+        "email": "contact@psicologoclinicoonline.com.br"
+      }
+    }
+  },
+  "footer": {
+  "rights": "© 2025 Estevam Holpert. All rights reserved.",
+  "description": "Clinical psychologist with training in Lacanian psychoanalysis, offering humanized and personalized care to promote mental health and emotional well-being.",
+  "privacy": "Privacy Policy",
+  "terms": "Terms and Conditions",
+  "social": "Social Networks"
+  },
+  "terms": {
+    "pageTitle": "Terms and Conditions | Estevam Holpert",
+    "pageDescription": "Terms and conditions for using Estevam Holpert's Psychologist website.",
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last updated: August 13, 2025",
+    "intro": "These terms and conditions outline the rules and regulations for the use of Estevam Holpert's website. By accessing this website, we assume you accept these terms and conditions in full. Do not continue to use this website if you do not accept all of the terms and conditions stated here.",
+    "sections": [
+      { "title": "Information Collection", "content": "We only request personal information when we truly need it to provide you with a service. We do so by fair and lawful means, with your knowledge and consent. We also inform you why we are collecting it and how it will be used." },
+      { "title": "Data Retention", "content": "We only retain collected information for as long as necessary to provide the requested service. When storing data, we protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use, or modification." },
+      { "title": "Data Sharing", "content": "We do not share personally identifiable information publicly or with third parties, except when required by law." },
+      { "title": "External Links", "content": "Our website may contain links to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and cannot accept responsibility for their respective privacy policies." },
+      { "title": "Your Rights", "content": "You are free to refuse our request for personal information, understanding that we may be unable to provide some of the desired services. Continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us." },
+      { "title": "Advertising", "content": "The Google AdSense service we use to serve advertising uses a DoubleClick cookie to serve more relevant ads across the web and limit the number of times a given ad is shown to you. For more information about Google AdSense, see the official Google AdSense privacy FAQs. We use ads to offset the costs of operating this site and provide funding for future development. The behavioral advertising cookies used by this site are designed to ensure that you are provided with the most relevant ads wherever possible by anonymously tracking your interests and presenting similar things that may be of interest to you. Several partners advertise on our behalf, and affiliate tracking cookies simply allow us to see if our customers have come to the site through one of our partners' sites so that we can credit them appropriately and, where applicable, allow our affiliate partners to offer any promotion that may be provided to you for making a purchase." },
+      { "title": "User Commitment", "content": "The user undertakes to make appropriate use of the content and information that www.psicologoclinicoonline.com.br offers on the site and, by way of example but not limitation: Not to engage in activities that are illegal or contrary to good faith and public order; Not to disseminate propaganda or content of a racist, xenophobic, gambling, any type of illegal pornography, apology for terrorism or against human rights; Not to cause damage to the physical (hardware) and logical (software) systems of www.psicologoclinicoonline.com.br, its suppliers or third parties, to introduce or spread computer viruses or any other hardware or software systems that are capable of causing the aforementioned damage." },
+      { "title": "More Information", "content": "We hope this is clarified, and as mentioned earlier, if there is something you are not sure whether you need or not, it is generally safer to leave cookies enabled in case you interact with one of the features you use on our site. This policy is effective as of August 13, 2025." }
+    ],
+    "questions": "Have any questions about these terms?",
+    "privacyLink": "Privacy Policy",
+    "contactLink": "Contact Us"
+  },
+  "privacy": {
+    "pageTitle": "Privacy Policy | Estevam Holpert",
+    "pageDescription": "Privacy policy for Estevam Holpert's Psychologist website.",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: August 13, 2025",
+    "intro": "Your privacy is important to us. It is www.psicologoclinicoonline.com.br's policy to respect your privacy regarding any information we may collect from you across our website and other sites we own and operate.",
+    "sections": [
+      {
+        "title": "Information Collection",
+        "content": "We only request personal information when we truly need it to provide you with a service. We do so by fair and lawful means, with your knowledge and consent. We also inform you why we are collecting it and how it will be used."
+      },
+      {
+        "title": "Data Retention",
+        "content": "We only retain collected information for as long as necessary to provide the requested service. When storing data, we protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use, or modification."
+      },
+      {
+        "title": "Data Sharing",
+        "content": "We do not share personally identifiable information publicly or with third parties, except when required by law."
+      },
+      {
+        "title": "External Links",
+        "content": "Our website may contain links to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and cannot accept responsibility for their respective privacy policies."
+      },
+      {
+        "title": "Your Rights",
+        "content": "You are free to refuse our request for personal information, understanding that we may be unable to provide some of the desired services. Continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us."
+      },
+      {
+        "title": "Advertising",
+        "content": "The Google AdSense service we use to serve advertising uses a DoubleClick cookie to serve more relevant ads across the web and limit the number of times a given ad is shown to you. For more information about Google AdSense, see the official Google AdSense privacy FAQs. We use ads to offset the costs of operating this site and provide funding for future development. The behavioral advertising cookies used by this site are designed to ensure that you are provided with the most relevant ads wherever possible by anonymously tracking your interests and presenting similar things that may be of interest to you. Several partners advertise on our behalf, and affiliate tracking cookies simply allow us to see if our customers have come to the site through one of our partners' sites so that we can credit them appropriately and, where applicable, allow our affiliate partners to offer any promotion that may be provided to you for making a purchase."
+      },
+      {
+        "title": "User Commitment",
+        "content": "The user undertakes to make appropriate use of the content and information that www.psicologoclinicoonline.com.br offers on the site and, by way of example but not limitation: Not to engage in activities that are illegal or contrary to good faith and public order; Not to disseminate propaganda or content of a racist, xenophobic, gambling, any type of illegal pornography, apology for terrorism or against human rights; Not to cause damage to the physical (hardware) and logical (software) systems of www.psicologoclinicoonline.com.br, its suppliers or third parties, to introduce or spread computer viruses or any other hardware or software systems that are capable of causing the aforementioned damage."
+      },
+      {
+        "title": "More Information",
+        "content": "We hope this is clarified, and as mentioned earlier, if there is something you are not sure whether you need or not, it is generally safer to leave cookies enabled in case you interact with one of the features you use on our site. This policy is effective as of August 13, 2025."
+      }
+    ],
+    "questions": "Have any questions about our privacy policy?",
+    "termsLink": "Terms of Use",
+    "contactLink": "Contact Us"
+  },
+  "meta": {
+    "title": "Estevam Holpert - Psychologist",
+    "description": "Clinical psychologist specialized in cognitive-behavioral therapy, offering personalized care to promote mental health and emotional well-being."
+  },
+  "whatsapp": {
+    "message": "Hello, I would like to schedule an appointment.",
+    "tooltip": "Chat on WhatsApp"
+  },
+  "cookies": {
+    "title": "Cookie Usage",
+    "message": "This website uses cookies to improve your browsing experience. Cookies help us personalize content and ads, provide social media features and analyze our traffic. By continuing to browse, you agree to the use of cookies.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "privacyPolicy": "Privacy Policy"
+  }
+}

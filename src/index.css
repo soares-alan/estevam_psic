@@ -1,0 +1,218 @@
+/* src/index.css */
+@import './typography.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Esta classe é aplicada ao html na primeira carga da página */
+  html.initial-load {
+    scroll-behavior: auto !important; /* Força comportamento instantâneo */
+    overflow-anchor: none; /* Desabilita ajuste de scroll do navegador */
+  }
+  
+  html {
+    /* Removemos scroll-behavior: smooth globalmente para evitar scroll automático */
+    /* scroll-behavior: smooth; */
+    scroll-padding-top: 5rem; /* Ajusta o scroll para compensar o header fixo */
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11"; /* Características OpenType para melhor legibilidade */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Adicionamos a classe para aplicar scroll-behavior apenas quando necessário */
+  html.smooth-scroll {
+    scroll-behavior: smooth;
+  }
+  
+  /* Classe específica para links de navegação do menu */
+  .nav-link {
+    cursor: pointer;
+  }
+  
+  /* Transição para os links de navegação */
+  .nav-link-active {
+    transition: all 0.3s ease;
+  }
+  
+  body {
+    @apply text-dark bg-light font-sans;
+  }
+  
+  /* Títulos com kerning otimizado e tracking */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+    letter-spacing: -0.015em;
+    font-feature-settings: "kern" 1, "liga" 1;
+    line-height: 1.2;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+    margin-bottom: 0.75em;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+    margin-bottom: 0.5em;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+    margin-bottom: 0.5em;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl;
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    @apply mb-4 leading-relaxed;
+  }
+  
+  /* Texto pequeno e legendas */
+  .text-small {
+    @apply text-sm leading-normal;
+  }
+  
+  .caption {
+    @apply text-xs text-gray-500 leading-normal;
+  }
+  
+  /* Quebras de texto mais precisas */
+  .hyphenate {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+  }
+  
+  /* Classes especiais para tratamento linguístico */
+  .text-pt {
+    /* Atributos específicos para Português */
+    letter-spacing: -0.01em;
+  }
+  
+  .text-en {
+    /* Atributos específicos para Inglês */
+    letter-spacing: -0.005em;
+  }
+}
+
+@layer components {
+  /* Classes de layout */
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .section {
+    @apply py-20 md:py-28 relative border-b border-gray-100;
+  }
+  
+  /* Classes tipográficas */
+  .heading-primary {
+    @apply text-primary font-bold;
+    letter-spacing: -0.015em;
+  }
+  
+  .heading-secondary {
+    @apply text-dark font-semibold;
+    letter-spacing: -0.01em;
+  }
+  
+  .heading-accent {
+    @apply text-accent font-semibold;
+    letter-spacing: -0.01em;
+  }
+  
+  /* Elementos decorativos para títulos */
+  .title-underline {
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  .title-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 3rem;
+    height: 3px;
+    @apply bg-primary;
+  }
+  
+  .title-underline-center {
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  .title-underline-center::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 3rem;
+    height: 3px;
+    @apply bg-primary;
+  }
+  
+  /* Animações */
+  @keyframes gentlePulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.1;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.15;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.1;
+    }
+  }
+  
+  .pulse-circle {
+    animation: gentlePulse 3s infinite ease-in-out;
+  }
+  
+  /* Animação de digitação para os pontos */
+  @keyframes typingDot {
+    0% {
+      transform: translateY(0px);
+    }
+    28% {
+      transform: translateY(-5px);
+    }
+    44% {
+      transform: translateY(0px);
+    }
+  }
+  
+  .typing-dot {
+    animation: typingDot 1.5s infinite ease-in-out;
+  }
+  
+  /* Botões com tipografia refinada */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-medium rounded-lg transition-all duration-300;
+    letter-spacing: 0.02em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  }
+  
+  .btn-primary {
+    @apply btn bg-accent text-white hover:bg-opacity-90 hover:shadow-md;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  }
+  
+  .btn-outline {
+    @apply btn border-2 border-accent text-accent hover:bg-accent hover:text-white hover:shadow-md;
+  }
+  
+  /* Classes para espaçamento de texto */
+  .text-balanced {
+    text-wrap: balance;
+  }
+}
