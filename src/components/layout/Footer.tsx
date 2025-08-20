@@ -52,14 +52,14 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span>São Paulo, SP</span>
+                <span>Bauru, SP</span>
               </div>
               
               <div className="flex items-start space-x-3">
                 <svg className="w-5 h-5 text-primary mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:contato@estevamholpert.com.br" className="hover:text-primary transition-colors duration-300">contato@estevamholpert.com.br</a>
+                <a href="mailto:estevamholpert@psicologoclinicoonline.com.br" className="hover:text-primary transition-colors duration-300">estevamholpert@psicologoclinicoonline.com.br</a>
               </div>
               
               <div className="flex items-start space-x-3">

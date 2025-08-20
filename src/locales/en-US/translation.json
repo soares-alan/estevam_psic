@@ -133,8 +133,8 @@
   },
   "areas": {
   "title": "What is psychoanalysis?",
-  "description": "The method of psychoanalysis works as the patient’s free speech is analyzed in the sessions, allowing unconscious contents and conflicts to emerge. These contents are the means through which new goals and new perspectives can take place in the patient’s life, advancing towards the cure.",
-    "quote": "Desire, in the psychoanalytic sense, should guide this journey, leading to symptom relief and the establishment of new personal goals, towards healing.",
+  "description": "The method of psychoanalysis works as the patient’s free speech is analyzed in the sessions, allowing unconscious contents and conflicts to emerge.",
+  "quote": "These contents are the means through which new goals and new perspectives can take place in the patient’s life, advancing towards the cure.",
     "author": "Estevam Holpert",
     "scheduleButton": "Schedule a session",
     "principles": {
@@ -143,16 +143,16 @@
         "description": "Space for free speech, where the patient can express thoughts and feelings without censorship."
       },
       "unconscious": {
-        "title": "Working with the Unconscious",
-        "description": "Access to unconscious contents that influence behaviors, feelings and choices."
+        "title": "Scope",
+        "description": "As a clinical psychologist, my work includes dedicating specialized attention to my client's grievances and applying the principals of psychoanalysis to their psychological wellbeing. Clients must be at least thirteen years-old."
       },
       "transferencia": {
-        "title": "Transference",
-        "description": "Therapeutic relationship as a field for elaborating fundamental psychological issues."
+        "title": "Duration",
+        "description": "My sessions take place once or twice a week, and are sixty minutes long, although they can be extended or shortened if necessary, keeping the same fee. The client may decide to discontinue the process at any time, free of charge or obligations of both parties."
       },
       "singularity": {
-        "title": "Singularity",
-        "description": "Recognition of each individual's unique and subjective history in the analytical process."
+        "title": "Confidentiality",
+        "description": "As my services include open discussions of private and sensitive issues, confidentiality is paramount. Therefore, clients are asked to be in an intimate, safe and calm physical environment, and their computers and phones must be up to date with their antivirus and firewall software."
       }
     }
   },
